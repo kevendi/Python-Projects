@@ -1,6 +1,10 @@
-import os
-import sys
-import pytest
+import os # os imported and bound locally
+import sys # sys imported and bound locally
+import pytest # pytest imported and bound locally
+
+from math import pi as PI_TEST
+
+print (PI_TEST)
 
 from decimal import Decimal, localcontext
 
